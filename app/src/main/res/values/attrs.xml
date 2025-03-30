@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="AppTextField">
+        <attr name="android:hint" format="string" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+    </declare-styleable>
+</resources>

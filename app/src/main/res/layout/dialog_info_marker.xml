@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_rounded_background"
+    android:divider="@drawable/vertical_12_dp_divider"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="48dp"
+    android:showDividers="middle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marker_info"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <com.andriipedosenko.localstations.ui.custom.AppTextField
+        android:id="@+id/mccTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/mcc"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+    <com.andriipedosenko.localstations.ui.custom.AppTextField
+        android:id="@+id/mncTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/mnc"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+    <com.andriipedosenko.localstations.ui.custom.AppTextField
+        android:id="@+id/lacTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/lac"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+    <com.andriipedosenko.localstations.ui.custom.AppTextField
+        android:id="@+id/pscTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/psc"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+    <com.andriipedosenko.localstations.ui.custom.AppTextField
+        android:id="@+id/ratTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/rat"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/editModeControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="0dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

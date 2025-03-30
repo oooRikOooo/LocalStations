@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LocalStations</string>
+    <string name="add_marker">Add Marker</string>
+    <string name="marker_info">Marker Info</string>
+    <string name="edit_marker">Edit Marker</string>
+    <string name="mcc">MCC</string>
+    <string name="mnc">MNC</string>
+    <string name="lac">LAC</string>
+    <string name="psc">PSC</string>
+    <string name="rat">RAT</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_station_confirmation">Delete station?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
