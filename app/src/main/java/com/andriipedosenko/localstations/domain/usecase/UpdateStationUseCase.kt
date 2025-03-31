@@ -1,6 +1,5 @@
 package com.andriipedosenko.localstations.domain.usecase
 
-import android.util.Log
 import com.andriipedosenko.localstations.domain.model.Station
 import com.andriipedosenko.localstations.domain.repository.StationRepository
 import javax.inject.Inject

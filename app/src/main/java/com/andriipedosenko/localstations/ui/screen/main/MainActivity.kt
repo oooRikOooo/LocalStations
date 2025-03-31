@@ -7,7 +7,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.core.view.isVisible
 import com.andriipedosenko.localstations.R
 import com.andriipedosenko.localstations.databinding.ActivityMainBinding
 import com.andriipedosenko.localstations.domain.model.Station

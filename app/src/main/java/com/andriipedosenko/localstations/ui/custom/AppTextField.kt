@@ -1,14 +1,8 @@
 package com.andriipedosenko.localstations.ui.custom
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.drawable.Drawable
-import android.text.TextPaint
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.View
 import com.andriipedosenko.localstations.R
 import com.andriipedosenko.localstations.databinding.AppTextFieldBinding
 import com.google.android.material.textfield.TextInputLayout

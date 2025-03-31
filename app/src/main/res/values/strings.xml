@@ -2,7 +2,6 @@
     <string name="app_name">LocalStations</string>
     <string name="add_marker">Add Marker</string>
     <string name="marker_info">Marker Info</string>
-    <string name="edit_marker">Edit Marker</string>
     <string name="mcc">MCC</string>
     <string name="mnc">MNC</string>
     <string name="lac">LAC</string>

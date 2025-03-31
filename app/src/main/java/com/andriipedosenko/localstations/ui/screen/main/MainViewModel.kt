@@ -8,13 +8,8 @@ import com.andriipedosenko.localstations.domain.model.Station
 import com.andriipedosenko.localstations.domain.usecase.DeleteStationUseCase
 import com.andriipedosenko.localstations.domain.usecase.GetStationInRangeUseCase
 import com.google.android.gms.maps.model.LatLngBounds
-import com.google.android.gms.maps.model.Marker
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.filterNotNull
-import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
